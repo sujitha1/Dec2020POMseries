@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="10" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Demo Cart App Regression Test Suite" duration-ms="10459" started-at="2021-03-08T19:35:01Z" finished-at="2021-03-08T19:35:12Z">
+    <groups>
+    </groups>
+    <test name="Login Page Test" duration-ms="7962" started-at="2021-03-08T19:35:01Z" finished-at="2021-03-08T19:35:09Z">
+      <class name="com.qa.opencart.tests.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@614c5515]" name="setUp" is-config="true" duration-ms="4567" started-at="2021-03-08T19:35:01Z" finished-at="2021-03-08T19:35:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginPageTitleTest()[pri:1, instance:com.qa.opencart.tests.LoginPageTest@614c5515]" name="loginPageTitleTest" duration-ms="158" started-at="2021-03-08T19:35:06Z" finished-at="2021-03-08T19:35:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageTitleTest -->
+        <test-method status="PASS" signature="forgotPwdLinkTest()[pri:2, instance:com.qa.opencart.tests.LoginPageTest@614c5515]" name="forgotPwdLinkTest" duration-ms="160" started-at="2021-03-08T19:35:06Z" finished-at="2021-03-08T19:35:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPwdLinkTest -->
+        <test-method status="PASS" signature="loginTest()[pri:3, instance:com.qa.opencart.tests.LoginPageTest@614c5515]" name="loginTest" duration-ms="1479" started-at="2021-03-08T19:35:06Z" finished-at="2021-03-08T19:35:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.LoginPageTest@614c5515]" name="tearDown" is-config="true" duration-ms="1555" started-at="2021-03-08T19:35:08Z" finished-at="2021-03-08T19:35:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.opencart.tests.LoginPageTest -->
+    </test> <!-- Login Page Test -->
+    <test name="ProductInfo Page Test" duration-ms="9688" started-at="2021-03-08T19:35:01Z" finished-at="2021-03-08T19:35:11Z">
+      <class name="com.qa.opencart.tests.ProductInfoPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.opencart.tests.ProductInfoPageTest@7946e1f4]" name="setUp" is-config="true" duration-ms="4566" started-at="2021-03-08T19:35:01Z" finished-at="2021-03-08T19:35:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="AccSetUp()[pri:0, instance:com.qa.opencart.tests.ProductInfoPageTest@7946e1f4]" name="AccSetUp" is-config="true" duration-ms="1811" started-at="2021-03-08T19:35:06Z" finished-at="2021-03-08T19:35:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccSetUp -->
+        <test-method status="PASS" signature="productInfoDataTest()[pri:0, instance:com.qa.opencart.tests.ProductInfoPageTest@7946e1f4]" name="productInfoDataTest" duration-ms="2445" started-at="2021-03-08T19:35:08Z" finished-at="2021-03-08T19:35:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productInfoDataTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.opencart.tests.ProductInfoPageTest@7946e1f4]" name="tearDown" is-config="true" duration-ms="850" started-at="2021-03-08T19:35:10Z" finished-at="2021-03-08T19:35:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.opencart.tests.ProductInfoPageTest -->
+    </test> <!-- ProductInfo Page Test -->
+    <test name="Accounts Page Test" duration-ms="10458" started-at="2021-03-08T19:35:01Z" finished-at="2021-03-08T19:35:12Z">
+      <class name="com.qa.opencart.base.AccountsPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.opencart.base.AccountsPageTest@13a57a3b]" name="setUp" is-config="true" duration-ms="4575" started-at="2021-03-08T19:35:01Z" finished-at="2021-03-08T19:35:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="AccSetUp()[pri:0, instance:com.qa.opencart.base.AccountsPageTest@13a57a3b]" name="AccSetUp" is-config="true" duration-ms="1805" started-at="2021-03-08T19:35:06Z" finished-at="2021-03-08T19:35:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AccSetUp -->
+        <test-method status="PASS" signature="accPageTitleTest()[pri:1, instance:com.qa.opencart.base.AccountsPageTest@13a57a3b]" name="accPageTitleTest" duration-ms="22" started-at="2021-03-08T19:35:08Z" finished-at="2021-03-08T19:35:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accPageTitleTest -->
+        <test-method status="PASS" signature="accPageLogoTest()[pri:2, instance:com.qa.opencart.base.AccountsPageTest@13a57a3b]" name="accPageLogoTest" duration-ms="87" started-at="2021-03-08T19:35:08Z" finished-at="2021-03-08T19:35:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accPageLogoTest -->
+        <test-method status="PASS" signature="accPageSectionsCountTest()[pri:3, instance:com.qa.opencart.base.AccountsPageTest@13a57a3b]" name="accPageSectionsCountTest" duration-ms="30" started-at="2021-03-08T19:35:08Z" finished-at="2021-03-08T19:35:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accPageSectionsCountTest -->
+        <test-method status="PASS" signature="accPageSectionsTest()[pri:4, instance:com.qa.opencart.base.AccountsPageTest@13a57a3b]" name="accPageSectionsTest" duration-ms="110" started-at="2021-03-08T19:35:08Z" finished-at="2021-03-08T19:35:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accPageSectionsTest -->
+        <test-method status="PASS" signature="searchTest()[pri:5, instance:com.qa.opencart.base.AccountsPageTest@13a57a3b]" name="searchTest" duration-ms="839" started-at="2021-03-08T19:35:08Z" finished-at="2021-03-08T19:35:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchTest -->
+        <test-method status="PASS" signature="selectProductTest()[pri:6, instance:com.qa.opencart.base.AccountsPageTest@13a57a3b]" name="selectProductTest" duration-ms="2164" started-at="2021-03-08T19:35:09Z" finished-at="2021-03-08T19:35:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectProductTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.opencart.base.AccountsPageTest@13a57a3b]" name="tearDown" is-config="true" duration-ms="815" started-at="2021-03-08T19:35:11Z" finished-at="2021-03-08T19:35:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.qa.opencart.base.AccountsPageTest -->
+    </test> <!-- Accounts Page Test -->
+  </suite> <!-- Demo Cart App Regression Test Suite -->
+</testng-results>
